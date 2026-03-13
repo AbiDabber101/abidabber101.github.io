@@ -1,5 +1,15 @@
 /* General setup */
 
+html {
+  font-family: "IBM Plex Serif", serif;
+}
+
+h1,
+h2 {
+  font-family: "Bevan", serif;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -32,4 +42,10 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 3px;
 }
