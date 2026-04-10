@@ -29,4 +29,9 @@ newImage.addEventListener("keydown", (e) => {
       updateDisplayedImage(e);
     }
   });
-}      
+}
+
+function updateDisplayedImage(e) {
+  displayedImage.src = e.target.src;
+  displayedImage.alt = e.target.alt;
+}
